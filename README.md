@@ -31,7 +31,7 @@ The Salary Prediction Application is a web-based tool that predicts the salary o
 
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    venv\Scripts\activate
     pip install -r requirements.txt
     ```
 
