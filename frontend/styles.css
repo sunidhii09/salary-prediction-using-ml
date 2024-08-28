@@ -1,0 +1,99 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b9b9f8;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+    /* align-items: center; */
+    min-height: 100vh;
+    background-image: url("SalaryPrediction.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container to center the content */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #444;
+    font-size: 2em;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Form Element Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    color: #555;
+}
+
+input, select {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #a013a2;
+}
+
+/* Button Styling */
+button {
+    padding: 10px;
+    background-color: #e47ae6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a013a2;
+}
+
+/* Result Section Styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    /* color: #333; */
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive Design
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+} */
