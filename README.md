@@ -12,9 +12,8 @@ The Salary Prediction Application is a web-based tool that predicts the salary o
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.12
 - Docker
-- Docker Compose (optional, but recommended)
 
 ## Setup
 
